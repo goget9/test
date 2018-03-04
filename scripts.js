@@ -28,8 +28,8 @@ $(function() {
 
 	$(document).ready(function() {
 		getQuote();
-		$(.trigger).click.function() {
+		$(.trigger).click(function() {
 			getQuote();
-		};
+		});
 	});
 })
